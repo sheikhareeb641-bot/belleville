@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kids Dental World | Belleville Dental</title>
+  <meta name="description" content="Kids Dental World — fun, friendly dental lessons and two free browser games that teach children how to brush, eat healthy and visit the dentist without fear.">
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="kids-page">
+
+  <div class="top-bar">
+    <div class="container d-flex justify-content-end align-items-center flex-wrap gap-2">
+      <span class="visitor-badge"><i class="bi bi-eye-fill"></i> Visitors: <span id="visitorCount">001244</span></span>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-xl sticky-top" id="mainNavbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/logo.svg" alt="Belleville Dental logo" class="brand-logo">
+        <span class="brand-text">Belleville <span>Dental</span>
+          <small class="brand-tag">Your Smile. Your Health. Your Knowledge.</small>
+        </span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainMenu">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Education</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="professional-education.html">Professional Education</a></li>
+              <li><a class="dropdown-item" href="patient-education.html">Patient Education</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="symptom-checker.html">Symptom Checker</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Explore</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
+              <li><a class="dropdown-item" href="products.html">Products</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="doctors.html">Doctors</a></li>
+          <li class="nav-item"><a class="nav-link" href="kids-dental.html">Kids Dental</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="queries.html">Queries</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="sitemap.html">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+    <header class="page-header kids-header">
+      <div class="container">
+        <div class="breadcrumb-soft"><a href="index.html">Home</a> <span>/ Kids Dental World</span></div>
+        <span class="bi bi-emoji-smile header-icon"></span>
+        <h1>Kids Dental World</h1>
+        <p class="subtitle">
+          Learn. Play. Smile! Friendly lessons, colourful pictures and two free games that make
+          taking care of your teeth the best part of the day.
+        </p>
+        <div class="header-actions">
+          <a href="#games" class="btn btn-kids"><i class="bi bi-joystick-fill"></i>Play Games</a>
+          <a href="#learn" class="btn btn-outline-light2"><i class="bi bi-book-fill"></i>Start Learning</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="kids-showcase">
+      <div class="container">
+        <div class="kids-showcase-card reveal">
+          <img class="kids-showcase-img"
+               src="assets/images/kids-dental-frame.svg"
+               alt="Cute dental illustration: a toast-shaped wooden board with blank paper, a blue and white toothpaste tube and blue toothbrush on top, a dental mirror and explorer probe on the left, a friendly dentist with a green mask pointing to the board on the right, and two happy teeth with a blue tooth badge at the bottom."
+               loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section id="learn">
+      <div class="container">
+
+        <div class="section-head reveal">
+          <span class="kicker kicker-kids"><i class="bi bi-star-fill"></i> Happy Teeth Club</span>
+          <h2>Six easy ways to keep your smile <em>shine &amp; healthy</em></h2>
+          <p>Read these with a parent, then try the games below to practice what you learned!</p>
+        </div>
+
+        <div class="row g-4">
+
+          <div class="col-md-6 col-lg-4 reveal d1">
+            <div class="card-soft kids-card">
+              <span class="kids-icon"><i class="bi bi-brush-fill"></i></span>
+              <h5>1. Brush Twice a Day</h5>
+              <p>Brush in the morning and before bed for two whole minutes — sing a happy song so you brush long enough!</p>
+              <span class="kids-fact"><i class="bi bi-lightbulb-fill"></i> Use a pea-sized dot of toothpaste.</span>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 reveal d2">
+            <div class="card-soft kids-card">
+              <span class="kids-icon"><i class="bi bi-egg-fried"></i></span>
+              <h5>2. Eat Tooth-Friendly Food</h5>
+              <p>Apples, carrots, cheese and milk make strong teeth. Too many sweets and fizzy drinks cause cavities.</p>
+              <span class="kids-fact"><i class="bi bi-lightbulb-fill"></i> Drink water after snacks to rinse your teeth.</span>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 reveal d3">
+            <div class="card-soft kids-card">
+              <span class="kids-icon"><i class="bi bi-heart-pulse-fill"></i></span>
+              <h5>3. Visit the Dentist</h5>
+              <p>The dentist is a tooth helper, not scary! Regular check-ups keep small problems from becoming big ones.</p>
+              <span class="kids-fact"><i class="bi bi-lightbulb-fill"></i> Most kids visit every six months.</span>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 reveal d1">
+            <div class="card-soft kids-card">
+              <span class="kids-icon"><i class="bi bi-funnel-fill"></i></span>
+              <h5>4. Floss Between Teeth</h5>
+              <p>Your toothbrush cannot reach the tiny gaps between teeth — floss gently once a day to move plaque away.</p>
+              <span class="kids-fact"><i class="bi bi-lightbulb-fill"></i> Ask a grown-up to help at first.</span>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 reveal d2">
+            <div class="card-soft kids-card">
+              <span class="kids-icon"><i class="bi bi-droplet-fill"></i></span>
+              <h5>5. Protect Your Teeth</h5>
+              <p>Wear a mouthguard when playing sports, and never use your teeth to open packets or bottles!</p>
+              <span class="kids-fact"><i class="bi bi-lightbulb-fill"></i> Strong teeth are for smiling and chewing.</span>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 reveal d3">
+            <div class="card-soft kids-card">
+              <span class="kids-icon"><i class="bi bi-stars"></i></span>
+              <h5>6. Baby Teeth Matter</h5>
+              <p>Baby teeth help you speak and smile, and they save space for adult teeth. Keep them healthy until they fall out on their own.</p>
+              <span class="kids-fact"><i class="bi bi-lightbulb-fill"></i> Wiggle loose teeth — never force them.</span>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="info-banner mt-4 reveal">
+          <p class="mb-0 small">
+            <i class="bi bi-info-circle-fill text-success me-2"></i>
+            This page is for fun, general awareness only. For advice about your own teeth, always ask
+            a dentist or a parent to book a check-up.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="alt-bg" id="games">
+      <div class="container">
+
+        <div class="section-head reveal">
+          <span class="kicker kicker-kids"><i class="bi bi-joystick"></i> Play Zone</span>
+          <h2>Two free <em>dental games</em></h2>
+          <p>No downloads needed — both games run right here in your browser. Try to beat your score!</p>
+        </div>
+
+        <div class="row g-4">
+
+          <div class="col-lg-6 reveal reveal-left">
+            <div class="game-panel">
+              <div class="game-head">
+                <span class="game-tag">Game 1</span>
+                <h3><i class="bi bi-brush"></i> Brush the Teeth!</h3>
+                <p>Plaque spots are hiding on the tooth. Tap every brown spot before the timer runs out —
+                  you have 30 seconds to make the tooth sparkle!</p>
+              </div>
+
+              <div class="game-stats">
+                <span class="game-stat"><i class="bi bi-clock-fill"></i> Time: <b id="brushTime">30</b>s</span>
+                <span class="game-stat"><i class="bi bi-emoji-smile-fill"></i> Cleaned: <b id="brushScore">0</b>/<span id="brushTotal">10</span></span>
+              </div>
+
+              <div class="game-stage" id="brushStage">
+                <div class="brush-tooth" id="brushTooth">
+                  <svg viewBox="0 0 240 240" aria-hidden="true">
+                    <path d="M120 40
+                             C96 26, 62 30, 48 52
+                             C34 74, 38 106, 48 134
+                             C55 154, 60 176, 66 196
+                             C70 210, 76 221, 86 219
+                             C97 217, 101 204, 105 188
+                             C109 171, 112 161, 120 161
+                             C128 161, 131 171, 135 188
+                             C139 204, 143 217, 154 219
+                             C164 221, 170 210, 174 196
+                             C180 176, 185 154, 192 134
+                             C202 106, 206 74, 192 52
+                             C178 30, 144 26, 120 40 Z"
+                          fill="#FFFFFF" stroke="#9FDCE8" stroke-width="6" stroke-linejoin="round"/>
+                    <circle cx="99" cy="116" r="7" fill="#0A3540"/>
+                    <circle cx="141" cy="116" r="7" fill="#0A3540"/>
+                    <path d="M102 138 Q120 156 138 138" fill="none" stroke="#0A3540" stroke-width="6" stroke-linecap="round"/>
+                  </svg>
+                  <div class="plaque-layer" id="plaqueLayer"></div>
+                </div>
+                <p class="game-msg" id="brushMsg">Press <b>Start</b> to begin!</p>
+              </div>
+
+              <div class="game-actions">
+                <button type="button" class="btn btn-kids" id="brushStart"><i class="bi bi-play-fill"></i>Start</button>
+                <button type="button" class="btn btn-outline-primary2" id="brushReset"><i class="bi bi-arrow-repeat"></i>Reset</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 reveal reveal-right">
+            <div class="game-panel">
+              <div class="game-head">
+                <span class="game-tag">Game 2</span>
+                <h3><i class="bi bi-emoji-laugh-fill"></i> Feed the Tooth!</h3>
+                <p>The tooth is hungry! Tap only the <b>tooth-friendly foods</b> — healthy picks make the
+                  tooth smile, junk food makes it feel yuck. Reveal all 8 cards to finish.</p>
+              </div>
+
+              <div class="game-stats">
+                <span class="game-stat"><i class="bi bi-trophy-fill"></i> Score: <b id="foodScore">0</b></span>
+                <span class="game-stat"><i class="bi bi-grid-3x3-gap-fill"></i> Left: <b id="foodLeft">8</b></span>
+              </div>
+
+              <div class="game-stage">
+                <div class="food-grid" id="foodGrid"></div>
+                <p class="game-msg" id="foodMsg">Press <b>Start</b> to begin!</p>
+              </div>
+
+              <div class="game-actions">
+                <button type="button" class="btn btn-kids" id="foodStart"><i class="bi bi-play-fill"></i>Start</button>
+                <button type="button" class="btn btn-outline-primary2" id="foodReset"><i class="bi bi-arrow-repeat"></i>Reset</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-6 reveal reveal-left">
+            <div class="kids-visual">
+              <img class="kids-photo" src="assets/images/kids-dentist.jpg" alt="A child smiling during a friendly dental visit" loading="lazy">
+              <img class="kids-mascot" src="assets/images/tooth-mascot.svg" alt="Friendly cartoon tooth mascot" loading="lazy">
+              <span class="kids-bubble bubble-1"><i class="bi bi-stars"></i> Great job!</span>
+              <span class="kids-bubble bubble-2"><i class="bi bi-emoji-laugh-fill"></i> Keep smiling!</span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 reveal reveal-right">
+            <span class="kicker kicker-kids"><i class="bi bi-people-fill"></i> For Parents</span>
+            <h2>Helping small smiles <em>grow strong</em></h2>
+            <ul class="check-list kids-list">
+              <li>Supervise brushing until about age 8 so no plaque is missed.</li>
+              <li>Make it routine — same time, same order, every day.</li>
+              <li>Keep sugary snacks to mealtimes instead of all day.</li>
+              <li>Book the first dental visit by the first birthday.</li>
+              <li>Celebrate brave visits — positive words beat scary words.</li>
+            </ul>
+            <div class="d-flex flex-wrap gap-3 mt-3">
+              <a href="patient-education.html" class="btn btn-primary"><i class="bi bi-heart-pulse-fill"></i>Patient Education</a>
+              <a href="doctors.html" class="btn btn-outline-primary2"><i class="bi bi-person-badge-fill"></i>Meet Our Doctors</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-8 reveal">
+            <h2>Did you beat your score?</h2>
+            <p>Share the games with a friend, then explore the rest of the portal — education, research, products and gallery all wait for you.</p>
+          </div>
+
+          <div class="col-lg-4 text-lg-end reveal d2">
+            <a href="index.html" class="btn btn-coral me-2 mb-2">
+              <i class="bi bi-house-fill"></i>Back Home
+            </a>
+            <a href="queries.html" class="btn btn-outline-light2 mb-2">
+              <i class="bi bi-chat-dots-fill"></i>Send a Query
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-4">
+
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-brand">
+            <img src="assets/logo.svg" alt="Belleville Dental logo">
+            <span class="name">Belleville <span>Dental</span></span>
+          </div>
+
+          <p class="footer-desc">
+            A professional dental education and information portal dedicated to dental awareness,
+            professional learning, patient guidance, reliable research and quality oral care products.
+          </p>
+
+          <div class="social-links on-dark">
+            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" aria-label="X (Twitter)"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-6">
+          <h5>Quick Links</h5>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="sitemap.html">Sitemap</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-6">
+          <h5>Education</h5>
+          <ul class="footer-links">
+            <li><a href="professional-education.html">Professional Education</a></li>
+            <li><a href="patient-education.html">Patient Education</a></li>
+            <li><a href="symptom-checker.html">Symptom Checker</a></li>
+            <li><a href="patient-education.html#faq">FAQs</a></li>
+            <li><a href="queries.html">Queries</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-6">
+          <h5>Our Doctors</h5>
+          <ul class="footer-links">
+            <li><a href="doctors.html">Meet the Team</a></li>
+            <li><a href="doctors.html#doctors-grid">Specialties</a></li>
+            <li><a href="doctors.html#consult">Consultation</a></li>
+            <li><a href="about.html">About the Portal</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-6">
+          <h5>Kids Dental</h5>
+          <ul class="footer-links">
+            <li><a href="kids-dental.html">Kids Dental World</a></li>
+            <li><a href="kids-dental.html#learn">Healthy Habits</a></li>
+            <li><a href="kids-dental.html#games">Play Games</a></li>
+            <li><a href="patient-education.html">Patient Education</a></li>
+          </ul>
+        </div>
+
+        <div class="col-12">
+          <h5 class="footer-contact-title">Contact</h5>
+          <ul class="footer-contact footer-contact-inline">
+            <li>
+              <i class="bi bi-geo-alt-fill"></i>
+              <span>Belleville Dental,<br>Karachi, Pakistan</span>
+            </li>
+            <li>
+              <i class="bi bi-envelope-fill"></i>
+              <a href="mailto:info@bellevilledental.com">info@bellevilledental.com</a>
+            </li>
+            <li>
+              <i class="bi bi-telephone-fill"></i>
+              <a href="tel:+923001234567">+92 300 1234567</a>
+            </li>
+            <li>
+              <i class="bi bi-clock"></i>
+              <span>Mon &ndash; Sat: 9:00 AM &ndash; 8:00 PM</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        &copy; 2026 Belleville Dental. All Rights Reserved. | Built for dental education &amp; awareness.
+      </div>
+
+    </div>
+  </footer>
+
+  <div class="ticker-bar" aria-label="Current date, time and location">
+    <div class="ticker-label">
+      <i class="bi bi-broadcast-pin"></i> <span>Live</span>
+    </div>
+
+    <div class="ticker-viewport">
+      <div class="ticker-track" id="tickerTrack">
+        <span class="seg" id="tickSegA">Loading date, time &amp; location…</span>
+        <span class="seg" id="tickSegB">Loading date, time &amp; location…</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/chatbot.js" defer></script>
+  <script src="js/kids-game.js" defer></script>
+  <script src="js/bg-animation.js" defer></script>
+
+</body>
+</html>

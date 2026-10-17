@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Belleville Dental</title>
+  <meta name="description" content="Belleville Dental — Your Smile. Your Health.Your Knowledge. A professional portal for dental education, patient awareness, research and quality oral care products.">
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <div class="top-bar">
+    <div class="container d-flex justify-content-end align-items-center flex-wrap gap-2">
+      <span class="visitor-badge"><i class="bi bi-eye-fill"></i> Visitors: <span id="visitorCount">001244</span></span>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-xl sticky-top" id="mainNavbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/logo.svg" alt="Belleville Dental logo" class="brand-logo">
+        <span class="brand-text">Belleville <span>Dental</span>
+          <small class="brand-tag">Your Smile. Your Health. Your Knowledge</small>
+        </span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainMenu">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Education</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="professional-education.html">Professional Education</a></li>
+              <li><a class="dropdown-item" href="patient-education.html">Patient Education</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="symptom-checker.html">Symptom Checker</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Explore</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
+              <li><a class="dropdown-item" href="products.html">Products</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="doctors.html">Doctors</a></li>
+          <li class="nav-item"><a class="nav-link" href="kids-dental.html">Kids Dental</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="queries.html">Queries</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="sitemap.html">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+    <header class="hero">
+      <div class="hero-media" aria-hidden="true">
+        <video class="hero-video-el" autoplay muted loop playsinline preload="metadata"
+               poster="assets/images/hero-clinic.jpg">
+          <source src="assets/videos/dental-hero.mp4" type="video/mp4">
+        </video>
+        <div class="hero-tint"></div>
+      </div>
+
+      <div class="container">
+        <div class="hero-content">
+          <span class="hero-kicker"><i class="bi bi-stars"></i> Dental Education &amp; Awareness Portal</span>
+          <h1>Welcome to Belleville Dental</h1>
+          <div class="tagline">“Your Smile. Your Health. Your Knowledge.”</div>
+
+          <p class="lead-text">
+            Your complete guide to dental and oral health — professional courses for students and
+            practitioners, clear guidance for patients, preventive care advice, the latest research
+            and quality oral care products, all in one modern, trustworthy portal.
+          </p>
+
+          <div class="hero-btns">
+            <a href="professional-education.html" class="btn btn-primary">
+              <i class="bi bi-mortarboard-fill"></i>Explore Education
+            </a>
+            <a href="patient-education.html" class="btn btn-coral">
+              <i class="bi bi-heart-pulse-fill"></i>Patient Education
+            </a>
+            <a href="products.html" class="btn btn-outline-light2">
+              <i class="bi bi-bag-fill"></i>Explore Products
+            </a>
+            <a href="doctors.html" class="btn btn-deep">
+              <i class="bi bi-person-badge-fill"></i>Meet Our Doctors
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat"><b>50+</b><span>Free Resources</span></div>
+            <div class="stat"><b>20+</b><span>Quality Products</span></div>
+            <div class="stat"><b>100+</b><span>Research Articles</span></div>
+            <div class="stat"><b>12</b><span>Connected Pages</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-float">
+        <div class="d-flex align-items-center gap-3">
+          <i class="bi bi-shield-check"></i>
+          <div>
+            <b>Trusted Guidance</b>
+            <span>Preventive care first, always</span>
+          </div>
+        </div>
+      </div>
+
+      <a href="#intro" class="scroll-cue" aria-label="Scroll to introduction">
+        <i class="bi bi-chevron-double-down"></i>
+      </a>
+    </header>
+
+    <section id="intro">
+      <div class="container">
+        <div class="row g-5 align-items-center intro-grid">
+
+          <div class="col-lg-6 reveal reveal-left">
+            <div class="img-stack">
+              <span class="exp-badge">
+                Healthy Habits
+                <small>Start early, last a lifetime</small>
+              </span>
+              <img class="main-img" src="assets/images/smile-closeup.jpg" alt="A woman with a healthy confident smile">
+              <img class="side-img" src="assets/images/toothbrush-paste.jpg" alt="Toothbrush with toothpaste">
+            </div>
+          </div>
+
+          <div class="col-lg-6 reveal reveal-right">
+            <span class="kicker">About Oral Health</span>
+            <h2>
+              Looking after your
+              <em style="font-style:normal;color:var(--primary)">teeth, gums &amp; mouth</em>
+            </h2>
+
+            <p class="text-muted">
+              Dental or oral health concerns the teeth, the gums and the whole mouth. When we take
+              good care of our mouth, we protect more than a smile — we protect chewing, speech,
+              confidence and overall well-being.
+            </p>
+
+            <p class="text-muted">
+              Preventive care is the foundation: brushing twice a day, flossing daily and visiting
+              the dentist regularly helps maintain oral health and stops small problems from
+              becoming painful, expensive treatments.
+            </p>
+
+            <ul class="check-list">
+              <li>Brush two minutes, twice a day with fluoride toothpaste</li>
+              <li>Floss once a day to clean between the teeth</li>
+              <li>Visit your dentist for a check-up every six months</li>
+              <li>Limit sugary snacks and drinks between meals</li>
+            </ul>
+
+            <div class="d-flex flex-wrap gap-3">
+              <a href="patient-education.html" class="btn btn-primary">
+                <i class="bi bi-book-fill"></i>Patient Education
+              </a>
+              <a href="about.html" class="btn btn-outline-primary2">
+                <i class="bi bi-info-circle-fill"></i>About Us
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="alt-bg" id="quick-access">
+      <div class="container">
+
+        <div class="section-head reveal">
+          <span class="kicker">Quick Access</span>
+          <h2>Explore every section of the portal</h2>
+          <p>Jump straight to the area you need — education for professionals, guidance for patients, research, products and support.</p>
+        </div>
+
+        <div class="row g-4">
+
+          <div class="col-12 col-sm-6 col-lg-4 reveal d1">
+            <a href="professional-education.html" class="quick-card">
+              <span class="icon-tile"><i class="bi bi-mortarboard-fill"></i></span>
+              <h5>Professional Education</h5>
+              <p>Courses, documents, faculty &amp; student resources and real case studies.</p>
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4 reveal d2">
+            <a href="patient-education.html" class="quick-card">
+              <span class="icon-tile coral"><i class="bi bi-heart-pulse-fill"></i></span>
+              <h5>Patient Education</h5>
+              <p>Tooth decay, gum disease, brushing, flossing, prevention and FAQs.</p>
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4 reveal d3">
+            <a href="research.html" class="quick-card">
+              <span class="icon-tile aqua"><i class="bi bi-graph-up-arrow"></i></span>
+              <h5>Dental Research</h5>
+              <p>Latest studies, articles, documents, videos and a media library.</p>
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4 reveal d4">
+            <a href="products.html" class="quick-card">
+              <span class="icon-tile amber"><i class="bi bi-bag-fill"></i></span>
+              <h5>Dental Products</h5>
+              <p>Toothpaste, brushes, kids products, electrical accessories and more.</p>
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4 reveal d1">
+            <a href="gallery.html" class="quick-card">
+              <span class="icon-tile dark"><i class="bi bi-images"></i></span>
+              <h5>Gallery</h5>
+              <p>Clinics, equipment, patient care and product images with lightbox preview.</p>
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4 reveal d2">
+            <a href="doctors.html" class="quick-card">
+              <span class="icon-tile aqua"><i class="bi bi-person-badge-fill"></i></span>
+              <h5>Our Doctors</h5>
+              <p>Meet the dental team, browse specialties and book a consultation.</p>
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4 reveal d3">
+            <a href="kids-dental.html" class="quick-card">
+              <span class="icon-tile kids"><i class="bi bi-emoji-smile-fill"></i></span>
+              <h5>Kids Dental World</h5>
+              <p>Friendly lessons and free browser games that make brushing fun.</p>
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4 reveal d4">
+            <a href="about.html" class="quick-card">
+              <span class="icon-tile"><i class="bi bi-buildings-fill"></i></span>
+              <h5>About Us</h5>
+              <p>Our mission for dental awareness, education, research and reliable information.</p>
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4 reveal d1">
+            <a href="queries.html" class="quick-card">
+              <span class="icon-tile coral"><i class="bi bi-chat-square-dots-fill"></i></span>
+              <h5>Queries</h5>
+              <p>Have a question? Send us your query and get a helpful reply.</p>
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4 offset-lg-4 reveal d2">
+            <a href="contact.html" class="quick-card">
+              <span class="icon-tile"><i class="bi bi-telephone-fill"></i></span>
+              <h5>Contact Us</h5>
+              <p>Email, phone, address, business hours, location and contact form.</p>
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+
+        <div class="section-head reveal">
+          <span class="kicker">Featured Education</span>
+          <h2>Learn from <em>professional courses</em></h2>
+          <p>Structured learning for dental students, faculty and practising clinicians — with documents and case studies to support every stage.</p>
+        </div>
+
+        <div class="row g-4" id="featuredEducation"></div>
+
+        <div class="text-center mt-4 reveal">
+          <a href="professional-education.html" class="btn btn-primary">
+            <i class="bi bi-arrow-right-circle-fill"></i>View All Resources
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="alt-bg">
+      <div class="container">
+
+        <div class="section-head reveal">
+          <span class="kicker">Featured Research</span>
+          <h2>Discover the <em>latest dental research</em></h2>
+          <p>Hand-picked studies, articles, documents and clinical videos that shape modern dentistry.</p>
+        </div>
+
+        <div class="row g-4" id="featuredResearch"></div>
+
+        <div class="text-center mt-4 reveal">
+          <a href="research.html" class="btn btn-primary">
+            <i class="bi bi-arrow-right-circle-fill"></i>Explore Research
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+
+        <div class="section-head reveal">
+          <span class="kicker">Featured Products</span>
+          <h2>Quality <em>oral care products</em></h2>
+          <p>Recommended toothpaste, toothbrushes, kids products and electrical accessories — with interactive star ratings.</p>
+        </div>
+
+        <div class="row g-4" id="featuredProducts"></div>
+
+        <div class="text-center mt-4 reveal">
+          <a href="products.html" class="btn btn-primary">
+            <i class="bi bi-arrow-right-circle-fill"></i>Browse All Products
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="alt-bg" id="doctors-preview">
+      <div class="container">
+
+        <div class="section-head reveal">
+          <span class="kicker">Meet Our Doctors</span>
+          <h2>Care from a <em>trusted dental team</em></h2>
+          <p>Sample profiles of the clinicians behind Belleville Dental — browse their specialties, experience and areas of expertise, then request a consultation.</p>
+        </div>
+
+        <div class="row g-4" id="featuredDoctors"></div>
+
+        <div class="text-center mt-4 reveal">
+          <a href="doctors.html" class="btn btn-primary">
+            <i class="bi bi-person-badge-fill"></i>View All Doctors
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="tight">
+      <div class="container">
+
+        <div class="stat-strip reveal reveal-zoom">
+          <div class="row g-0">
+            <div class="col-6 col-lg-3 item">
+              <b>2001</b>
+              <span>Serving healthier smiles</span>
+            </div>
+            <div class="col-6 col-lg-3 item">
+              <b>50+</b>
+              <span>Free learning resources</span>
+            </div>
+            <div class="col-6 col-lg-3 item">
+              <b>20+</b>
+              <span>Recommended products</span>
+            </div>
+            <div class="col-6 col-lg-3 item">
+              <b>24/7</b>
+              <span>Information at your fingertips</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="alt-bg">
+      <div class="container">
+
+        <div class="section-head reveal">
+          <span class="kicker">Gallery Preview</span>
+          <h2>A look inside our <em>visual library</em></h2>
+          <p>Dental care, clinics, equipment, education and products — hover to zoom, click for a full-screen preview.</p>
+        </div>
+
+        <div class="gallery-grid" id="galleryPreview"></div>
+
+        <div class="text-center mt-4 reveal">
+          <a href="gallery.html" class="btn btn-primary">
+            <i class="bi bi-images"></i>Open Full Gallery
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="kids-band" id="kids-band">
+      <div class="container">
+
+        <div class="row g-5 align-items-center">
+
+          <div class="col-lg-6 reveal reveal-left">
+            <span class="kicker kicker-kids"><i class="bi bi-emoji-smile"></i> Kids Dental World</span>
+            <h2>Dental Fun for <em> Kids</em></h2>
+            <p class="kids-lead">Learning about healthy teeth can be fun! Visit Kids Dental World for
+              simple lessons, friendly pictures and two free browser games made for small smiles.</p>
+
+            <ul class="check-list kids-list">
+              <li>Brush Your Teeth — and play “Brush the Teeth!”</li>
+              <li>Healthy Food for strong, happy teeth</li>
+              <li>Visiting the Dentist without fear</li>
+              <li>Protect Your Teeth and avoid too much sugar</li>
+            </ul>
+
+            <div class="d-flex flex-wrap gap-3">
+              <a href="kids-dental.html" class="btn btn-kids">
+                <i class="bi bi-joystick-fill"></i>Play Game
+              </a>
+              <a href="kids-dental.html#learn" class="btn btn-outline-primary2">
+                <i class="bi bi-book-fill"></i>Kids Dental Guide
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-6 reveal reveal-right">
+            <div class="kids-visual">
+              <img class="kids-photo" src="assets/images/kids-dentist.jpg" alt="A child smiling during a friendly dental visit" loading="lazy">
+              <img class="kids-mascot" src="assets/images/tooth-mascot.svg" alt="Friendly cartoon tooth mascot" loading="lazy">
+              <span class="kids-bubble bubble-1"><i class="bi bi-stars"></i> Brush twice a day!</span>
+              <span class="kids-bubble bubble-2"><i class="bi bi-emoji-laugh-fill"></i> Smile big!</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="container">
+
+        <div class="row align-items-center g-4">
+
+          <div class="col-lg-8 reveal">
+            <h2>Ready for a healthier smile?</h2>
+            <p>Send us your query, book a consultation or explore our free educational resources — Belleville Dental is here to help you learn, care and smile with confidence.</p>
+          </div>
+
+          <div class="col-lg-4 text-lg-end reveal d2">
+            <a href="queries.html" class="btn btn-coral me-2 mb-2">
+              <i class="bi bi-chat-dots-fill"></i>Send a Query
+            </a>
+            <a href="contact.html" class="btn btn-outline-light2 mb-2">
+              <i class="bi bi-telephone-fill"></i>Contact Us
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+
+  <div class="container">
+
+    <div class="row g-4">
+
+
+
+      <div class="col-lg-4 col-md-6">
+
+        <div class="footer-brand">
+
+          <img src="assets/logo.svg" alt="Belleville Dental logo">
+
+          <span class="name">Belleville <span>Dental</span></span>
+
+        </div>
+
+
+
+        <p class="footer-desc">
+
+          A professional dental education and information portal dedicated to dental awareness,
+
+          professional learning, patient guidance, reliable research and quality oral care products.
+
+        </p>
+
+
+
+        <div class="social-links on-dark">
+
+          <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+
+          <a href="#" aria-label="X (Twitter)"><i class="bi bi-twitter-x"></i></a>
+
+          <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+
+          <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+
+          <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+
+        </div>
+
+      </div>
+
+
+
+      <div class="col-lg-2 col-md-6 col-6">
+
+        <h5>Quick Links</h5>
+
+        <ul class="footer-links">
+
+          <li><a href="index.html">Home</a></li>
+
+          <li><a href="research.html">Research</a></li>
+
+          <li><a href="products.html">Products</a></li>
+
+          <li><a href="gallery.html">Gallery</a></li>
+
+          <li><a href="about.html">About Us</a></li>
+
+          <li><a href="sitemap.html">Sitemap</a></li>
+
+        </ul>
+
+      </div>
+
+
+
+      <div class="col-lg-2 col-md-6 col-6">
+
+        <h5>Education</h5>
+
+        <ul class="footer-links">
+
+          <li><a href="professional-education.html">Professional Education</a></li>
+
+          <li><a href="patient-education.html">Patient Education</a></li>
+
+          <li><a href="symptom-checker.html">Symptom Checker</a></li>
+
+          <li><a href="patient-education.html#faq">FAQs</a></li>
+
+          <li><a href="queries.html">Queries</a></li>
+
+          <li><a href="contact.html">Contact Us</a></li>
+
+        </ul>
+
+      </div>
+
+
+
+      <div class="col-lg-2 col-md-6 col-6">
+
+        <h5>Our Doctors</h5>
+
+        <ul class="footer-links">
+
+          <li><a href="doctors.html">Meet the Team</a></li>
+
+          <li><a href="doctors.html#doctors-grid">Specialties</a></li>
+
+          <li><a href="doctors.html#consult">Consultation</a></li>
+
+          <li><a href="about.html">About the Portal</a></li>
+
+        </ul>
+
+      </div>
+
+
+
+      <div class="col-lg-2 col-md-6 col-6">
+
+        <h5>Kids Dental</h5>
+
+        <ul class="footer-links">
+
+          <li><a href="kids-dental.html">Kids Dental World</a></li>
+
+          <li><a href="kids-dental.html#learn">Healthy Habits</a></li>
+
+          <li><a href="kids-dental.html#games">Play Games</a></li>
+
+          <li><a href="patient-education.html">Patient Education</a></li>
+
+        </ul>
+
+      </div>
+
+
+
+      <div class="col-12">
+
+        <h5 class="footer-contact-title">Contact</h5>
+
+        <ul class="footer-contact footer-contact-inline">
+
+          <li>
+
+            <i class="bi bi-geo-alt-fill"></i>
+
+            <span>Belleville Dental,<br>Karachi, Pakistan</span>
+
+          </li>
+
+          <li>
+
+            <i class="bi bi-envelope-fill"></i>
+
+            <a href="mailto:info@bellevilledental.com">info@bellevilledental.com</a>
+
+          </li>
+
+          <li>
+
+            <i class="bi bi-telephone-fill"></i>
+
+            <a href="tel:+923001234567">+92 300 1234567</a>
+
+          </li>
+
+          <li>
+
+            <i class="bi bi-clock"></i>
+
+            <span>Mon &ndash; Sat: 9:00 AM &ndash; 8:00 PM</span>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+
+
+    </div>
+
+
+
+    <div class="footer-bottom">
+
+      &copy; 2026 Belleville Dental. All Rights Reserved. | Built for dental education &amp; awareness.
+
+    </div>
+
+
+
+  </div>
+
+</footer>
+
+  <div class="ticker-bar" aria-label="Current date, time and location">
+    <div class="ticker-label">
+      <i class="bi bi-broadcast-pin"></i> <span>Live</span>
+    </div>
+
+    <div class="ticker-viewport">
+      <div class="ticker-track" id="tickerTrack">
+        <span class="seg" id="tickSegA">Loading date, time &amp; location…</span>
+        <span class="seg" id="tickSegB">Loading date, time &amp; location…</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/chatbot.js" defer></script>
+  <script src="js/bg-animation.js" defer></script>
+
+</body>
+</html>
